@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTxtName"
+        android:layout_width="318dp"
+        android:layout_height="105dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/enter_you_name"
+        android:inputType="textPersonName"
+        android:text="@string/name"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTxtName"
+        android:layout_marginTop="42dp"
+        android:gravity="center"
+        android:padding="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="@string/button"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button3"
+        android:layout_marginTop="64dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp"
+        android:text="@string/textview"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="286dp" />
+
+</RelativeLayout>
