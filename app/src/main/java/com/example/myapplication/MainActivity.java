@@ -29,7 +29,7 @@ public class MainActivity extends  AppCompatActivity {
 
             @Override
             public void onClick(View v){String name =editTxtName.getText().toString();
-                txtName.setText("hi"+name);}
+                txtName.setText(" hi "+name);}
 
 
 
